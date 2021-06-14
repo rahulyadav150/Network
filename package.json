@@ -1,0 +1,27 @@
+{
+  "name": "socilamedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start":"node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.3",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "engines": {
+    "node": "14.15.0"
+}
+}

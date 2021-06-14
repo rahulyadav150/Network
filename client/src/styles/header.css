@@ -1,0 +1,183 @@
+
+.header{
+    width: 100%;
+    min-height: 70px;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 2;
+    box-shadow: 0 0 10px #ddd;
+    border: 1px solid rgb(0, 0,0,.125);
+}
+
+
+.header .navbar{
+   width: 100%;
+   height: 100%;
+}
+
+.header .logo h1{
+font-size: 2rem;
+}
+
+
+
+/*----------Header Menu ------*/
+
+.header .menu li{
+    opacity: .5;
+}
+.header .menu li.menu_avatar{
+    opacity: 1;
+}
+
+.header .menu li.active{
+    opacity: 1;
+}
+
+.header .menu .material-icons{
+    font-size: 30px;
+}
+
+
+.header .menu .dropdown-menu{
+    position:absolute;
+    left: inherit;  
+    right:0px;
+}
+
+
+.header .menu label{
+    cursor:pointer;
+}
+
+
+/*-------------------Header Search --------*/
+
+
+.header .search_form{
+    position: relative;
+}
+
+.header .search_form #search{
+    background: #fafafa;
+    border : 1px solid #ddd;
+    min-width: 250px;
+    outline: none;
+    text-indent: 5px;
+    border-radius: 3px;
+
+   
+}
+
+.header .search_form  .search_icon{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 12px;
+    pointer-events: none;
+
+}
+
+
+.header .search_form  .search_icon .material-icons{
+    font-size: 14px;
+    transform: translateY(3px);
+}
+
+.header .search_form  .close_search{
+    position: absolute;
+    
+    top:0;
+    right:3px;
+    
+    cursor: pointer;
+    color: crimson;
+    font-weight: 900;
+    
+}
+
+.header .search_form .users{
+    z-index: 3;
+    position:absolute;
+    width: 100%;
+    min-width: 250px;
+    background: #fafafa;
+    max-height: calc(100vh -  150px);
+    overflow: auto;
+    margin-top: 3px;
+   
+}
+
+
+/* ------------Responsive----------*/
+
+@media screen and (max-width:768px) {
+    .header .logo{
+        font-size: 1rem;
+    }
+
+    .header .menu{
+        position:absolute;
+        top: calc(100vh - 50px);
+        left: 0;
+        
+        box-shadow: 0 0 10px #ddd;
+        background: #f8f9fa;
+        z-index: 2;
+        width: 100%;
+        border: 1px solid rgb(0, 0,0,.125);
+    }
+
+    .header .menu .navbar-nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: centre;
+
+    }
+    .header .menu .dropdown-menu{
+        display: absolute;
+        bottom:100%;
+        top:auto;
+        z-index: 3;
+    }
+    .header .search_form {
+        width: 100%;
+    }
+    .header .search_form #search{
+        width: 100%;
+
+    }
+  
+    .header .logo{
+        margin: auto;
+    }
+    .header .navbar-brand {
+        
+        font-size: 1.5rem;
+    }
+
+}
+
+
+/*----------Loading Search user */
+
+.loadImg{
+    position:absolute;
+   
+   top:10%;
+   width: 10px;
+   height: 10px;
+   background: #fafafa;
+   transform: translate(-130%,50%);
+  
+
+    /* width:10px; */
+
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+.auth_page{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+.auth_page form{
+    background-color: #fff;
+     max-width:400px;
+     width: 100%;
+     border:1px solid #ddd;
+     padding: 50px 25px;
+     
+    
+    
+   
+     
+     
+}
+
+.auth_page form .pass{
+    position: relative;
+}
+
+.auth_page form .pass small{
+    position:absolute;
+    right:1px;
+    top:55%;
+    transform: translate(-15%,15%);
+    opacity: .5;
+    cursor:pointer;
+    
+}

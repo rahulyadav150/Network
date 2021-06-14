@@ -1,0 +1,159 @@
+/*------------Status------------*/
+
+@media screen and (max-width:300px){
+    .home .home_container{
+        padding :  0 7px !important;
+    }
+    .home_container .status{
+        padding: 10px;
+    }
+    .posts .card .card_header{
+        padding: 15px 10px !important;
+
+    }
+    .posts .card_body .card_body_content{
+        padding:0 10px !important;
+    }
+    .posts .card_footer .card_icon_menu {
+        padding: 0 10px !important;
+    }
+    .comment_display{
+        padding : 10px !important;
+    }
+    .pl-4{
+        padding-left: 1rem !important;
+    }
+  
+}
+@media screen and (max-width:768px){
+    .carousel-item{
+        height:300px !important;
+    }
+     .carousel-item img{
+        
+        height: 100% !important;
+        object-fit: fill;
+    }
+}
+
+.status{
+    background: white;
+    box-shadow: 0 0 5px #ddd;
+    padding:20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0,0,.125);
+}
+
+.status .statusBtn{
+    background: #f1f1f1;
+    border:none;
+    outline: none;
+    border-radius: 30px;
+    color:#555;
+    padding: 0 10px;
+    text-align: left;
+    margin:0 5px;
+    
+
+}
+
+.status .statusBtn:hover{
+    background-color: #ddd;
+}
+
+
+/*-----------Posts--------------- */
+
+.posts .card{
+    box-shadow: 0 0 4px #ddd;
+    margin-bottom: 25px;
+}
+
+/*-----------Post_card Header--------------- */
+
+.posts .card .card_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 25px;
+}
+
+.posts .card_header .card_name{
+    transform: translateY(3px);
+    padding-left: 3px;
+}
+
+.posts .card_header .dropdown-menu{
+    position: absolute;
+    right: 0;
+    left:inherit;
+   
+}
+.posts .card_header .dropdown-item{
+    display: flex;
+    margin: 5px;
+}
+
+/*-----------Post_card Body--------------- */
+
+.posts .card_body .card_body_content{
+    padding: 0 25px;
+    margin-top:-10px;
+    margin-bottom: 10px;
+  
+}
+
+.posts .card_body .read_more{
+    color:crimson;
+    cursor: pointer;
+}
+
+ /* .carousel-item{
+    height:400px;
+}
+ .carousel-item img{
+    
+    height: 100%;
+    object-fit: fill;
+} */
+
+
+
+/*-----------Post_card footer--------------- */
+
+.posts .card_footer .card_icon_menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+
+}
+
+.posts .card_footer .card_icon_menu i{
+    font-size: 28px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.posts .card_footer .card_icon_menu img{
+    width: 28px;
+    height: 28px;
+    transform: translate(5px,-5px);
+    cursor: pointer;
+
+}
+.load_more{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+
+
+ 
+
+
+
+
+
+
+
