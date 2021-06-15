@@ -1,4 +1,4 @@
-# Instagram-clone
+# QNetwork
 A real time social media application with  all major functionalities of Instagram.
 some of the key functionalities are :
 * Authentiaction using JWT.
@@ -20,14 +20,4 @@ some of the key functionalities are :
 * **Version Control**: Git and Github
 
 ## Demo
-<div style = 'display:flex; flex-wrap:wrap;' >
-<img src = './images/img1.png'  >
 
-<img src = './images/img8.png' >
-
-<img src = './images/img3.png' >
-<img src = './images/img4.png' >
-<img src = './images/img5.png' >
-<img src = './images/img6.png'  >
-<img src = './images/img7.png'  >
-</div>
